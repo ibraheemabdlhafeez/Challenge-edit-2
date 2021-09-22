@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;800&display=swap');
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Red Hat Display', sans-serif;
+}
+body {
+    background-color: rgb(214, 225, 255, 50%);
+    overflow-x: hidden;
+    text-align: center;
+}
+.container .card {
+    background: white;
+    border-radius: 7px;
+    margin: 50px 450px;
+    width: fit-content;
+}
+.container .card .header svg {
+    border-radius: 7px 7px 0 0;
+}
+.container .card .body .about {
+    text-align: center;
+}
+.container .card .body .about .details {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+.container .card .body .about .p {
+    color: gray;
+    font-size: .9rem;
+}
+.body .pricing {
+    text-align: center;
+    margin: 10px 20px 0;
+    padding: 10px 10px;
+    border-radius: 7px;    
+    background: #eee;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.body .pricing .words {
+    display: flex;
+    align-items: center;
+}
+.body .pricing .words .text p {
+    color: gray;
+    font-size: .9rem;
+}
+.body .pricing .words svg {
+    margin-right: 10px;
+}
+button {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+}
+button.primary {
+    background-color: #0099ff;
+    width: 50%;
+    border-radius: 7px;
+    padding: 10px;
+    color: white;
+    margin-top: 20px;
+    transition: .9s all ease-in;
+    box-shadow: 0 2px 5px rgb(0, 0, 0, .5);
+}
+button.primary:hover {
+    background-color: #a2d9ff;
+}
+button.secondary {
+    margin-top: 10px;
+    color: gray;
+}
